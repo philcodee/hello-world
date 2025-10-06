@@ -23,7 +23,7 @@ function setup() {
 
 function draw() {
     background(220);
-    fill(value);
+    fill(value); // <- This is where GPT helped me
     square(mouseX, mouseY, 100);
 }
 
