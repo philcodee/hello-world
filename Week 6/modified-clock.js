@@ -37,7 +37,7 @@ class TimeDisplay {
     let radius = 120; // Radius of the circle //Increased radius to create a circle around the numbers
     let dotSize = 20; // Increased the dot size
     let centerX = this.x;
-    let centerY = this.y; // Center around the time display (shifted down 5px)
+    let centerY = this.y; // Center around the time display (shifted down 5px) //Removed
 
     // Calculate number of dots to show (reduce for cleaner look)
     let numDots = min(maxValue, 12); // Show max 12 dots
@@ -62,8 +62,8 @@ class TimeDisplay {
         noStroke();
         circle(dotX, dotY, dotSize);
         // Add glow effect with transparency
-        fill(red(currentColor), green(currentColor), blue(currentColor), 5);
-        circle(dotX, dotY, dotSize * 20);
+        fill(red(currentColor), green(currentColor), blue(currentColor), 5); // Reduced the opacity of the glow
+        circle(dotX, dotY, dotSize * 20); // Increased the size of the glow area
       } else {
         fill(0, 0, 0, 70); // Black at 70% opacity
         noStroke();
@@ -79,7 +79,7 @@ let minuteDisplay;
 let secondDisplay;
 
 function setup() {
-  createCanvas(800, 800);
+  createCanvas(800, 800); // Increased canvas size
 
   // Create TimeDisplay objects at different x positions
   hourDisplay = new TimeDisplay(400, 160, "hr");
