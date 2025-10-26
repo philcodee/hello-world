@@ -2,6 +2,8 @@
 // Demonstrates using a class to organize time display
 // Includes modulo-based loops for visual cycling
 
+// Modifications made using live server
+
 // TimeDisplay class - handles displaying a time value
 class TimeDisplay {
   constructor(x, y, label) {
@@ -82,13 +84,13 @@ function setup() {
   createCanvas(800, 800); // Increased canvas size
 
   // Create TimeDisplay objects at different x positions
-  hourDisplay = new TimeDisplay(400, 160, "hr");
+  hourDisplay = new TimeDisplay(400, 160, "hr");  // Repositioned these to be centered on the x-axis and stacked vertically
   minuteDisplay = new TimeDisplay(400, 400, "min");
   secondDisplay = new TimeDisplay(400, 640, "sec");
 }
 
 function draw() {
-  background(30);
+  background(30); // Made background color slightly lighter
 
   // Get current time
   let h = hour();
@@ -114,11 +116,14 @@ function draw() {
   minuteDisplay.drawModuloDots(60, currentColor); // 60 minutes
   secondDisplay.drawModuloDots(60, currentColor); // 60 seconds
 
+  // Commented out the title to focus view only on numbers and values
   // Draw title
   // fill(100);
   // textSize(24);
   // textAlign(CENTER, TOP);
   // text("Simple Clock", width / 2, 20);
+
+  //Commented out the progress bar
 
   // Draw a color bar that cycles through colors using modulo
   // drawColorBarWithModulo(s);
@@ -129,6 +134,7 @@ function getCurrentColor(seconds) {
   let numColors = 6;
   let colorIndex = floor(seconds / 10) % numColors;
 
+  // Added an alpha to these for transparency
   let colors = [
     color(255, 100, 100, 30), // Red
     color(255, 200, 100, 30), // Orange
