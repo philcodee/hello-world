@@ -1,5 +1,5 @@
 
-  # Terminal Style UI
+  # Pontifex
 
   This is a code bundle for Terminal Style UI. The original project is available at https://www.figma.com/design/BBsA2VhNNQrJ46217ommxx/Terminal-Style-UI.
 
