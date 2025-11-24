@@ -95,7 +95,7 @@ function draw() {
   // Get current time
   let h = hour();
   let m = minute();
-  let s = second();
+  // let s = second();
 
   // Get current cycling color for the dots
   let currentColor = getCurrentColor(s);
