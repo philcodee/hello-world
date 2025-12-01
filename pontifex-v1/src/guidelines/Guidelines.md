@@ -410,13 +410,6 @@ function formatPlaintext(text) {
     return text;
 }
 ```
-
-**Example:**
-```
-Input:  "DO NOT USE PC"
-Output: "DONOTUSEPCXXX"
-```
-
 ### textToNumbers()
 Converts text to number array.
 
