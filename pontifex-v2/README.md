@@ -7,6 +7,8 @@
   
   It is a for-entertainment-purposes visualization of the pen-and-paper cipher-operation which allows Randy Waterhouse and [Enoch Root](https://www.cafeaulait.org/cryptonomicon.html) to communicate without being picked up by [Van Eck phreaking](https://en.wikipedia.org/wiki/Van_Eck_phreaking).
 
+  You can play the game at: https://philcodee.github.io/hello-world/
+
   ## Running the code
 
   ### Figma to GitHub Page
