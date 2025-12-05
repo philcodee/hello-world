@@ -3,7 +3,9 @@
 
   # Pontifex
 
-  This is a code bundle for Pontifex. The original project is available at https://www.figma.com/design/BBsA2VhNNQrJ46217ommxx/Pontifex.
+  This game and the guidelines which I used to generate my code were made possible thanks to: [Bruce Schneier](https://www.schneier.com/academic/solitaire/) and Neal Stephenson's [Cryptonomicon](https://en.wikipedia.org/wiki/Cryptonomicon). 
+  
+  It is a for-entertainment-purposes visualization of the pen-and-paper cipher-operation which allows Randy Waterhouse and [Enoch Root](https://www.cafeaulait.org/cryptonomicon.html) to communicate to avoid risking computers being picked up by hidden devices capable of [Van Eck phreaking](https://en.wikipedia.org/wiki/Van_Eck_phreaking).
 
   ## Running the code
 
@@ -22,7 +24,8 @@
   export default defineConfig({
     base: '/hello-world/', <- add this line here so that GitHub can reference folder when building
     plugins: [react()],
-    resolve:
+    resolve: [],
+  })
 ```
 
   * Don't forget to save file
