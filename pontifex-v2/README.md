@@ -5,7 +5,7 @@
 
   This game and the guidelines which I used to generate my code were made possible thanks to: [Bruce Schneier](https://www.schneier.com/academic/solitaire/) and Neal Stephenson's [Cryptonomicon](https://en.wikipedia.org/wiki/Cryptonomicon). 
   
-  It is a for-entertainment-purposes visualization of the pen-and-paper cipher-operation which allows Randy Waterhouse and [Enoch Root](https://www.cafeaulait.org/cryptonomicon.html) to communicate to avoid risking computers being picked up by hidden devices capable of [Van Eck phreaking](https://en.wikipedia.org/wiki/Van_Eck_phreaking).
+  It is a for-entertainment-purposes visualization of the pen-and-paper cipher-operation which allows Randy Waterhouse and [Enoch Root](https://www.cafeaulait.org/cryptonomicon.html) to communicate without being picked up by [Van Eck phreaking](https://en.wikipedia.org/wiki/Van_Eck_phreaking).
 
   ## Running the code
 
