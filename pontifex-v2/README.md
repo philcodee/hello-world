@@ -76,9 +76,9 @@ I was also eager to try out with a real deck of cards. I learned early on that t
 
 ![State Machine Diagram](images/state-machine-diagram.png)
 
-* Challenges faced and how solved: TBD
+**Challenges faced and how solved**<br/> The biggest challenge was first, wrapping my head around how this would be visualized. I went in thinking I would be able to code from scratch, but soon accepted that if I was going to capture the overall experience of Pontifex...
 
-* What learned: TBD
+**What Learned**<br/>It was very helpful to understand the mechanics of the algorithm before attempting to vibe code it. Having played it out by hand with a real deck allowed my to troubleshoot more accurately when output would not match my expectations... 
 
 ## Media
 
@@ -95,6 +95,12 @@ I was also eager to try out with a real deck of cards. I learned early on that t
 ![Move Joker B](images/move-joker-b.png)**Move Joker B**<br/>Once user verifies, they are then prompted to move **Joker B** down two spaces. Now that the "brackets" have been set, the user is ready to move on to the **Triple Cut**.
 
 ![Perform a Triple Cut](images/triple-cut.png)**Perform a Triple Cut**<br/>The user is now asked to click the top section before the first joker and the bottom section after the second joker, temporarily ignoring the **A** and **B** designations. The user clicks swap and proceeds to the **Count Cut**.
+
+![Perform a Count Cut](images/count-cut.png)**Perform a Count Cut**<br/>The next step, the user is asked to click the bottom card to see the value. This number determines how many cards they count down the sequence. Once that position is clicked, the cards above and the cards below (excluding the bottom card) swap.
+
+![Keystream Number Generated](images/keystream-num-gen.png)**Keystream Number Generated**<br/>In the final step, the user is asked to look at the top card, convert it, and count down the deck to the card in that number position. This card is called the **Output Card** and once clicked, the program displays the number as the first keystream value.
+
+![Conversion Tables](images/conversion-tables.png)**Conversion Tables**<br/>TBD 
 
 ## Reflection
 
