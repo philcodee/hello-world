@@ -76,7 +76,6 @@ I was also eager to try out with a real deck of cards. I learned early on that t
 
 ![State Machine Diagram](images/state-machine-diagram.png)
 
-
 * Challenges faced and how solved: TBD
 
 * What learned: TBD
@@ -91,12 +90,16 @@ I was also eager to try out with a real deck of cards. I learned early on that t
 
 ![Start Keystream Generator](images/keystream-start.png)**Start Keystream Generator**<br/>The first step in the keystream generation process is to shuffle the deck. For a real deck, Schneier suggests shuffling at least 10 times. The decrypter would need their deck to be identically sequenced for it to work.
 
-![Move Joker A](images/move-joker-a.png)**Move Joker A**<br/>Now that the deck has been shuffled, the user is prompted to move **Joker A** down one space
+![Move Joker A](images/move-joker-a.png)**Move Joker A**<br/>Now that the deck has been shuffled, the user is prompted to move **Joker A** down one space. Think of each joker as a bracket around an array.
+
+![Move Joker B](images/move-joker-b.png)**Move Joker B**<br/>Once user verifies, they are then prompted to move **Joker B** down two spaces. Now that the "brackets" have been set, the user is ready to move on to the **Triple Cut**.
+
+![Perform a Triple Cut](images/triple-cut.png)**Perform a Triple Cut**<br/>The user is now asked to click the top section before the first joker and the bottom section after the second joker, temporarily ignoring the **A** and **B** designations. The user clicks swap and proceeds to the **Count Cut**.
 
 ## Reflection
 
-* **What worked well?**<br/>Talking
+* **What worked well?**<br/>TBD
 
-* **What would you improve given more time?**<br/>Talking talking
+* **What would you improve given more time?**<br/>TBD
 
-* **What would you do differently?**<br/>Talking talking talking
+* **What would you do differently?**<br/>TBD
