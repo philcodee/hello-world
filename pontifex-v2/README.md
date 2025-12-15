@@ -1,5 +1,5 @@
 
- ![Alt text](images/cryptonomicon-logo.png)  
+ ![Cryptonomicon Logo](images/cryptonomicon-logo.png)  
 
   # Pontifex
 
