@@ -100,12 +100,12 @@ I was also eager to try out with a real deck of cards. I learned early on that t
 
 ![Keystream Number Generated](images/keystream-num-gen.png)**Keystream Number Generated**<br/>In the final step, the user is asked to look at the top card, convert it, and count down the deck to the card in that number position. This card is called the **Output Card** and once clicked, the program displays the number as the first keystream value.
 
-![Conversion Tables](images/conversion-tables.png)**Conversion Tables**<br/>TBD 
+![Conversion Tables](images/conversion-tables.png)**Conversion Tables**<br/>During the keystream generation flow, the user can click on the 'Conversion Tables' button to access the card values to be used during both the cut sequences and the output card sequence.
 
 ## Reflection
 
-* **What worked well?**<br/>TBD
+* **What worked well?**<br/>The card deck and animations clearly depict the keystream number generation process.
 
-* **What would you improve given more time?**<br/>TBD
+* **What would you improve given more time?**<br/>I would continue to build on character development, refine UI, and fix some minor bugs
 
-* **What would you do differently?**<br/>TBD
+* **What would you do differently?**<br/>Trying different vibe-coding tools to see how results would vary. Look more into character development, bring more aspects of the book to the gameplay.
