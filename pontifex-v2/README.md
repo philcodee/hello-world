@@ -9,6 +9,8 @@
 
   You can play the game at: https://philcodee.github.io/hello-world/
 
+  View the final presentation deck [here](https://docs.google.com/presentation/d/11uoMdpTkBhyHjLkIEV6oWCXaRXyPDume96SY1mbObKo/edit?slide=id.g391ca1183b3_0_73#slide=id.g391ca1183b3_0_73).
+
   ## Project Goals
 
   The main goal of this project was to convert the **Solitaire Encryption Algorithm** into a working UI, with a particular focus on accurately depicting the Keystream Generation sequence.
